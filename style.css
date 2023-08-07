@@ -59,7 +59,6 @@ body{
   justify-content: space-between;
 }
 .add-box{
-  /* padding: 1.2rem; */
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -77,56 +76,23 @@ body{
   flex-direction: row;
   justify-content: space-between;
 }
-/* .note .details::-webkit-scrollbar,
-.popup textarea::-webkit-scrollbar{
-  width: 0;
-}
-.note .details:hover::-webkit-scrollbar,
-.popup textarea:hover::-webkit-scrollbar{
-  width: 5px;
-}
-.note .details:hover::-webkit-scrollbar-track,
-.popup textarea:hover::-webkit-scrollbar-track{
-  background: #f1f1f1;
-  border-radius: 25px;
-}
-.note .details:hover::-webkit-scrollbar-thumb,
-.popup textarea:hover::-webkit-scrollbar-thumb{
-  background: #e6e6e6;
-  border-radius: 25px;
-} */
+
 .note p{
   font-size: 22px;
   font-weight: 500;
   color: #575757;
 }
 
-/* .note span{
-  display: block;
-  color: #575757;
-  font-size: 16px;
-  margin-top: 5px;
-} */
-
 .add-note p{
   font-size: 22px;
   font-weight: 500;
-  /* color: #575757; */
 }
 
 .total-note p{
   font-size: 22px;
   font-weight: 500;
-  /* color: #575757; */
 }
-/* .note .bottom-content{
-  padding-top: 10px;
-  border-top: 1px solid #ccc;
-} */
-/* .bottom-content span{
-  color: #6D6D6D;
-  font-size: 14px;
-} */
+
  .menu{
   display: flex;
   flex-direction: row;
@@ -136,42 +102,9 @@ body{
 }
 
 .checked{
-  /* visibility: hidden; */
   background-color: #c3cfcf;
   color: #8b8989;
 }
-
-/* .bottom-content .settings i{
-  color: #6D6D6D;
-  cursor: pointer;
-  font-size: 15px;
-} */
-/* .settings .menu{
-  z-index: 1;
-  bottom: 0;
-  right: -5px;
-  padding: 5px 0;
-  background: #fff;
-  position: absolute;
-  border-radius: 4px;
-  transform: scale(0);
-  transform-origin: bottom right;
-  box-shadow: 0 0 6px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-}
-.settings.show .menu{
-  transform: scale(1);
-}
-.settings .menu li{
-  height: 25px;
-  font-size: 16px;
-  margin-bottom: 2px;
-  padding: 17px 15px;
-  cursor: pointer;
-  box-shadow: none;
-  border-radius: 0;
-  justify-content: flex-start;
-} */
 
   .task_box{
     position: fixed;
