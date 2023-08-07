@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,20 +12,24 @@
     />
   </head>
   <body>
-    <div class="task_box">
-      <div class="task">
+    <div class="popup-box">
+      <div class="popup">
         <div class="content">
           <header>
             <p>Add a new Note</p>
-            <i>&#215;</i>
+            <i class="close_icon">&#215;</i>
           </header>
           <form action="#">
             <div class="row title">
-              <label for="">Name</label>
-              <input type="text" />
+              <label>Name</label>
+              <input class="input_title" type="text" />
+            </div>
+            <div class="row category">
+              <label>Category</label>
+              <select name="" id="selector"></select>
             </div>
             <div class="row description">
-              <label for="">description</label>
+              <label>Content</label>
               <textarea></textarea>
             </div>
             <button>Add Note</button>
@@ -38,44 +42,20 @@
         <h2>Notes App <i class="far fa-list-alt"></i></h2>
         <button class="btn_add">Add</button>
       </div>
-      <i class="fas fa-pen"></i>
-      <i class="fas fa-trash"></i>
-      <i class="far fa-file-archive"></i>
-      <i class="fas fa-tasks"></i>
-      <i class="fas fa-lightbulb"></i>
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Created</th>
-          <th>Category</th>
-          <th>Dates</th>
-          <th>e.g.</th>
-        </tr>
-        <tr>
-          <td>Peter</td>
-          <td>Griffin</td>
-          <td>$100</td>
-          <td>$100</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>Lois</td>
-          <td>Griffin</td>
-          <td>$150</td>
-        </tr>
-        <tr>
-          <td>Joe</td>
-          <td>Swanson</td>
-          <td>$300</td>
-        </tr>
-        <tr>
-          <td>Cleveland</td>
-          <td>Brown</td>
-          <td>$250</td>
-        </tr>
-      </table>
+      <li class="add-note">
+        <p>Name</p>
+        <p>Category</p>
+        <p></p>
+      </li>
+      <li class="total-note">
+        <p>Category</p>
+        <p>Active</p>
+        <p>Archive</p>
+      </li>
+      
     </div>
 
     <script src="script.js"></script>
+    
   </body>
 </html>
